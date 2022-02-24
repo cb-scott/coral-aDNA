@@ -1,9 +1,9 @@
 # Location of Coral aDNA Pipeline Files
 
 Comp Methods folder is the location of all processing scripts used.
-> **Workflow_Summary**
-START HERE!!
-This gives a summary of the aDNA_remote_workflow.sh, the software dependencies needed, and tips to get the pipeline to run. 
+> START HERE!!   
+**Workflow_Summary**  
+This gives a summary of the aDNA_remote_workflow.sh, the software dependencies needed, and tips to get the pipeline to run.
 
 - **aDNA_remote_workflow.sh**: software run remotely on supercomputing cluster to
  create required files.
