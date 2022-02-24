@@ -40,7 +40,8 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/013/753/865/GCA_013753865.1_Am
 #NOTE! further down the pipeline, the projection-based PCA cannot handle more than 99 chromosomes!
 #For this genome, we eventually end up with 16 chromosomes, as it is a chromosome level assembly
 #I end up concating the unplaced scaffolds into pseudo chromosomes
-#This sample chunk will randomly concat things together... I manually did it separately 
+#This sample chunk will randomly concat things together... I manually did it separately
+
 $HOME/bin/concatFasta.pl fasta=GCA_013753865.1_Amil_v2.1_genomic.fna num=16
 awk '/^>/{print ">" ++i; next}{print}' <  GCA_013753865_cc.fasta > numbered_reduced_Amil.fasta
 export GEN_AMIL=/scratch/06909/cbscott/aDNA_revamp/reviews/amil_mapping/numbered_reduced_Amil.fasta
