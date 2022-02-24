@@ -1,9 +1,13 @@
 # Location of Coral aDNA Pipeline Files
 
 Comp Methods folder is the location of all processing scripts used.
- - **aDNA_remote_workflow.sh**: software run remotely on supercomputing cluster to
+> **Workflow_Summary**
+START HERE!!
+This gives a summary of the aDNA_remote_workflow.sh, the software dependencies needed, and tips to get the pipeline to run. 
+
+- **aDNA_remote_workflow.sh**: software run remotely on supercomputing cluster to
  create required files.
- - **chr_namer.R, cmdJack_Scaffold.R**: Rscripts to be run remotely used in the
+- **chr_namer.R, cmdJack_Scaffold.R**: Rscripts to be run remotely used in the
   workflow. These create jackknifed files at the scaffold level for the
   projection-based pipeline.
 - **putatively_ancient_microbes.R**: Returns putatively ancient microbes to visually
@@ -26,4 +30,4 @@ had some typos. If recreating that plot, use the Kitchen_meta_edit.csv for a fix
 version.
 
 Lab Methods contains the published protocols used to extract DNA and UDG-half
-treat aDNA libraries. 
+treat aDNA libraries.
